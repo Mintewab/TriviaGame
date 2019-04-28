@@ -62,6 +62,25 @@ function gameOver() {
      if (Answers[29].checked==true){correctAnswers++}
 
 
+     for (i = 0; i < Answers.length; i += 3) {
+
+        if (Answers[i].checked == false && Answers[i + 1].checked == false && Answers[i + 2].checked == false) { unansweredQuestions++ }
+
+    }
+
+
+    t = "Game Over!"
+    t += "<br><br>Unanswered: " + unansweredQuestions;
+    t += "<br><br>Correct: " + correctAnswers;
+    t += "<br><br>incorrect: " + (10 - correctAnswers - unansweredQuestions);
+
+    document.getElementById("gameWrapper").innerHTML = t;
+
+
+}
+
+
+
 
 
 
