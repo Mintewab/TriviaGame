@@ -15,6 +15,18 @@ var t = "X";
 var runrun;
 
 
+function loseTime() {
+
+    timeLeft--;
+
+    document.getElementById("displayTimeLeft").innerHTML = timeLeft;
+
+    if (timeLeft < 1) { gameOver(); }
+
+
+}
+
+
 
 
 
