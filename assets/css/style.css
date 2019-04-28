@@ -1,0 +1,49 @@
+#startgamebutton {
+  text-shadow: 3px 6px yellow;
+  font-size: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp2003324.jpg");
+}
+
+#container {
+  width: 1000px;
+  margin: auto;
+  height: 1000px;
+  border: 20px double rgb(89, 92, 84);
+  overflow: hidden;
+  background-color: papayawhip;
+}
+
+#startWrapper {
+  width: 800px;
+  padding: 10px;
+  border: 15px solid #47476b;
+  text-shadow: 3px 7px pink;
+  font-size: 750%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-shadow: 3px 2px red;
+  font-size: 200%;
+  text-align: center;
+}
+
+#donegamebutton {
+  text-shadow: 3px 7px yellow;
+  font-size: 350%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
