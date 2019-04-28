@@ -42,6 +42,26 @@ function gameLoad() {
 
 }
 
+function gameOver() {
+
+    clearInterval(runrun);
+    document.getElementById("displayTimeLeft").innerHTML = "You Lose!";
+
+    Answers = document.getElementsByTagName("input");
+
+
+    if (Answers[0].checked == true) { correctAnswers++ }
+    if (Answers[3].checked == true) { correctAnswers++ }
+    if (Answers[7].checked == true) { correctAnswers++ }
+    if (Answers[9].checked == true) { correctAnswers++ }
+     if (Answers[14].checked == true) { correctAnswers++ } 
+     if (Answers[16].checked==true){correctAnswers++}
+     if (Answers[18].checked==true){correctAnswers++}
+     if (Answers[22].checked==true){correctAnswers++}
+     if (Answers[25].checked==true){correctAnswers++}
+     if (Answers[29].checked==true){correctAnswers++}
+
+
 
 
 
