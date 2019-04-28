@@ -29,4 +29,19 @@ function loseTime() {
 
 
 
+function gameLoad() {
+
+    document.getElementById("startWrapper").style.display = "none";
+
+    document.getElementById("gameWrapper").style.display = "block";
+
+
+
+    runrun = setInterval(function () { loseTime(); }, 1000);
+
+
+}
+
+
+
 
